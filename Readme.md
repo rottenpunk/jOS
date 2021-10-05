@@ -21,6 +21,10 @@ can associate a resource, such as a process to a handle and its purpose is to
 prevent resources from being destroyed if they are being used by other processes or interrupt 
 routines.  
 
+I will be adding new features that include true preemptive tasking support as well as better
+timer support and functions (such as timer callbacks) because I plan to use this little guy in
+future projects.
+
 Include os.h in modules that require interacting with jOS and you have access to these routines:
 
 
